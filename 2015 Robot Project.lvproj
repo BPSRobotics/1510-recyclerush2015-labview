@@ -48,6 +48,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -92,7 +93,7 @@
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
-		<Item Name="Team Code" Type="Folder">
+		<Item Name="Precreated VIs" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -102,6 +103,17 @@
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+		</Item>
+		<Item Name="Input Control" Type="Folder">
+			<Item Name="Deadzone.vi" Type="VI" URL="../Deadzone.vi"/>
+			<Item Name="Joystick Control.vi" Type="VI" URL="../Joystick Control.vi"/>
+		</Item>
+		<Item Name="Output Control" Type="Folder">
+			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Mecanum Drive.vi"/>
+		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Joystick Values.ctl" Type="VI" URL="../Joystick Values.ctl"/>
+			<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
