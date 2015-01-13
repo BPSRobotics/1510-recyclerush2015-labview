@@ -106,14 +106,22 @@
 		</Item>
 		<Item Name="Input Control" Type="Folder">
 			<Item Name="Deadzone.vi" Type="VI" URL="../Deadzone.vi"/>
+			<Item Name="Gamepad Values.vi" Type="VI" URL="../Gamepad Values.vi"/>
 			<Item Name="Joystick Control.vi" Type="VI" URL="../Joystick Control.vi"/>
+			<Item Name="Twist-Handle Values.vi" Type="VI" URL="../Twist-Handle Values.vi"/>
+			<Item Name="Standard Joystick Values.vi" Type="VI" URL="../Standard Joystick Values.vi"/>
 		</Item>
 		<Item Name="Output Control" Type="Folder">
 			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Mecanum Drive.vi"/>
+			<Item Name="Gamepad Drive.vi" Type="VI" URL="../Gamepad Drive.vi"/>
+			<Item Name="Twist Drive.vi" Type="VI" URL="../Twist Drive.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Joystick Values.ctl" Type="VI" URL="../Joystick Values.ctl"/>
+			<Item Name="Xbox Values.ctl" Type="VI" URL="../Xbox Values.ctl"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
+			<Item Name="Twist-Handle Values.ctl" Type="VI" URL="../Twist-Handle Values.ctl"/>
+			<Item Name="Standard Joystick Values.ctl" Type="VI" URL="../Standard Joystick Values.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
