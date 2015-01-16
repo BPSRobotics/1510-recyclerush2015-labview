@@ -146,9 +146,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Gamepad Drive.vi" Type="VI" URL="../Gamepad Drive.vi"/>
 			<Item Name="Twist Drive.vi" Type="VI" URL="../Twist Drive.vi"/>
 		</Item>
-		<Item Name="Sensors" Type="Folder">
-			<Item Name="DIO In.vi" Type="VI" URL="../DIO In.vi"/>
-		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Joystick Values.ctl" Type="VI" URL="../Joystick Values.ctl"/>
 			<Item Name="Xbox Values.ctl" Type="VI" URL="../Xbox Values.ctl"/>
@@ -576,6 +573,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANJaguar_ConfigMaxOutputVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/Configuration/WPI_CANJaguar_ConfigMaxOutputVoltage.vi"/>
 				<Item Name="WPI_CANJaguar_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/Configuration/WPI_CANJaguar_ConfigBrakeCoast.vi"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<Item Name="WPI_AccelerometerRange.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerRange.ctl"/>
 				<Item Name="WPI_AccelerometerClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerClose.vi"/>
 				<Item Name="WPI_AccelerometerDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerDevRef.ctl"/>
@@ -683,6 +681,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_ERRFilterReserved.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_ERRFilterReserved.vi"/>
 				<Item Name="FPGA_DIOWriteFilterSelect.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteFilterSelect.vi"/>
 >>>>>>> origin/master
+=======
+>>>>>>> parent of e66d239... Added raw DIO input
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
