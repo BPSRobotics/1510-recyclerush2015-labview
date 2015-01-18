@@ -149,6 +149,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Encoders.vi" Type="VI" URL="../Encoders.vi"/>
 		</Item>
+		<Item Name="Calculations" Type="Folder">
+			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Deg-Ft 6in Mecanum.vi"/>
+		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Joystick Values.ctl" Type="VI" URL="../Joystick Values.ctl"/>
 			<Item Name="Xbox Values.ctl" Type="VI" URL="../Xbox Values.ctl"/>
@@ -158,7 +161,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Encoder Values.ctl" Type="VI" URL="../Encoder Values.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Degrees to Inches 6in Mecanum.vi" Type="VI" URL="../Degrees to Inches 6in Mecanum.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
