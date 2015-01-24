@@ -148,13 +148,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Encoders.vi" Type="VI" URL="../Sensors/Encoders.vi"/>
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
-			<Item Name="Accelerometer.vi" Type="VI" URL="../Sensors/Accelerometer.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
-			<Item Name="Latches" Type="Folder">
-				<Item Name="Compressor Latch.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Sensors/Compressor Latch.vi"/>
-				<Item Name="Solenoid Latch.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Sensors/Solenoid Latch.vi"/>
-			</Item>
 			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Deg-Ft 6in Mecanum.vi"/>
 			<Item Name="Deadzone.vi" Type="VI" URL="../Input Control/Deadzone.vi"/>
 		</Item>
