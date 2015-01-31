@@ -1,0 +1,36 @@
+1. Move forward
+2. when the robot reaches the auto zone, STOP
+	Camera tracker?
+	Beam breakers?
+	
+
+RoboRIO
+	- Digital Input
+	   - 10 inputs
+			- 8 On Encoders, Drive motors
+	- Analog Inputs
+		-4 inputs
+	-MXP Port
+		- Digital Inputs
+			- 16 inputs
+		- Analogs Inputs
+			- 4 inputs
+	
+Drive code (8 DIO)
+lifter
+	- Move up and Down
+	-Sensers
+		- Analog Method
+			- Totelevels (4 Posistions)
+	
+Arm movements
+	-Movement(OPen/close)
+	-Things to detect
+		-Sensors
+			-Digital (4)
+				- Something is between the arms
+				- arms grabbed object
+			Analog/Digital?
+				-Set positions (3)
+
+camera tracking
