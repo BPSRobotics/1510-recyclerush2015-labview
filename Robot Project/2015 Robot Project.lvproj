@@ -137,6 +137,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Gamepad Drive.vi" Type="VI" URL="../Input Control/Gamepad Drive.vi"/>
 			<Item Name="Twist-Handle Values.vi" Type="VI" URL="../Input Control/Twist-Handle Values.vi"/>
 			<Item Name="Standard Joystick Values.vi" Type="VI" URL="../Input Control/Standard Joystick Values.vi"/>
+			<Item Name="Gamepad Values.vi" Type="VI" URL="../Input Control/Gamepad Values.vi"/>
 		</Item>
 		<Item Name="Output Control" Type="Folder">
 			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Output Control/Mecanum Drive.vi"/>
@@ -144,6 +145,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Twist Drive.vi" Type="VI" URL="../Output Control/Twist Drive.vi"/>
 			<Item Name="Pneumatics.vi" Type="VI" URL="../Output Control/Pneumatics.vi"/>
 			<Item Name="Compressor.vi" Type="VI" URL="../Sensors/Compressor.vi"/>
+			<Item Name="Lifting Mechanism.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Output Control/Lifting Mechanism.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Encoders.vi" Type="VI" URL="../Sensors/Encoders.vi"/>
@@ -162,6 +164,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Twist-Handle Values.ctl" Type="VI" URL="../Typedefs/Twist-Handle Values.ctl"/>
 			<Item Name="Encoder Values.ctl" Type="VI" URL="../Typedefs/Encoder Values.ctl"/>
 			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Sensors/Accelerometer Distances.ctl"/>
+		</Item>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="Strafe For Yellow.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Strafe For Yellow.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -830,6 +835,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DigitalOutputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputClose.vi"/>
 				<Item Name="WPI_SonarSRF04DigitalClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_SonarSRF04DigitalClose.vi"/>
 				<Item Name="WPI_UltrasonicClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_UltrasonicClose.vi"/>
+				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -838,7 +844,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Gamepad Values.vi" Type="VI" URL="../Input Control/Gamepad Values.vi"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
