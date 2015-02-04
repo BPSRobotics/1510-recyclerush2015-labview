@@ -146,6 +146,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Pneumatics.vi" Type="VI" URL="../Output Control/Pneumatics.vi"/>
 			<Item Name="Compressor.vi" Type="VI" URL="../Sensors/Compressor.vi"/>
 			<Item Name="LED Spike.vi" Type="VI" URL="../Output Control/LED Spike.vi"/>
+			<Item Name="Arms.vi" Type="VI" URL="../Output Control/Arms.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Encoders.vi" Type="VI" URL="../Sensors/Encoders.vi"/>
@@ -165,7 +166,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Encoder Values.ctl" Type="VI" URL="../Typedefs/Encoder Values.ctl"/>
 			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Sensors/Accelerometer Distances.ctl"/>
 		</Item>
-		<Item Name="Autonomous" Type="Folder"/>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="DriveSetFeet.vi" Type="VI" URL="../Autonomous/DriveSetFeet.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -284,7 +287,6 @@ AddOutputFilter chunkFilter
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
 				<Item Name="Prepare Table Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Table Name.vi"/>
-				<Item Name="WPI_RobotDriveDelayAndUpdateSafety.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDelayAndUpdateSafety.vi"/>
 				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
 				<Item Name="WPI_SafetyOutputCheckMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputCheckMenu.ctl"/>
 				<Item Name="WPI_RobotDriveSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyCheck.vi"/>
