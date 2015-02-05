@@ -149,11 +149,14 @@ AddOutputFilter chunkFilter
 			<Item Name="Lifting.vi" Type="VI" URL="../Output Control/Lifting.vi"/>
 <<<<<<< HEAD
 			<Item Name="Clamping.vi" Type="VI" URL="../../../../OneDrive/Documents/Clamping.vi"/>
+<<<<<<< HEAD
 			<Item Name="Drive for set feet.vi" Type="VI" URL="../Output Control/Drive for set feet.vi"/>
 =======
 			<Item Name="Clamping.vi" Type="VI" URL="../Output Control/Clamping.vi"/>
 			<Item Name="Positions.vi" Type="VI" URL="../Output Control/Positions.vi"/>
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 014116e... Wrapper for Drive set feet
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Encoders.vi" Type="VI" URL="../Sensors/Encoders.vi"/>
