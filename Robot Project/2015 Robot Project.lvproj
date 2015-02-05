@@ -147,8 +147,13 @@ AddOutputFilter chunkFilter
 			<Item Name="Compressor.vi" Type="VI" URL="../Sensors/Compressor.vi"/>
 			<Item Name="LED Spike.vi" Type="VI" URL="../Output Control/LED Spike.vi"/>
 			<Item Name="Lifting.vi" Type="VI" URL="../Output Control/Lifting.vi"/>
+<<<<<<< HEAD
 			<Item Name="Clamping.vi" Type="VI" URL="../../../../OneDrive/Documents/Clamping.vi"/>
 			<Item Name="Drive for set feet.vi" Type="VI" URL="../Output Control/Drive for set feet.vi"/>
+=======
+			<Item Name="Clamping.vi" Type="VI" URL="../Output Control/Clamping.vi"/>
+			<Item Name="Positions.vi" Type="VI" URL="../Output Control/Positions.vi"/>
+>>>>>>> origin/master
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Encoders.vi" Type="VI" URL="../Sensors/Encoders.vi"/>
