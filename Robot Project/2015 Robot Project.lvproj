@@ -145,20 +145,22 @@ AddOutputFilter chunkFilter
 			<Item Name="Twist Drive.vi" Type="VI" URL="../Output Control/Twist Drive.vi"/>
 			<Item Name="Pneumatics.vi" Type="VI" URL="../Output Control/Pneumatics.vi"/>
 			<Item Name="Compressor.vi" Type="VI" URL="../Sensors/Compressor.vi"/>
-			<Item Name="Lifting.vi" Type="VI" URL="../Output Control/Lifting.vi"/>
-			<Item Name="Positions.vi" Type="VI" URL="../Output Control/Positions.vi"/>
-			<Item Name="Clamping.vi" Type="VI" URL="../Output Control/Clamping.vi"/>
-			<Item Name="Clamping Positions.vi" Type="VI" URL="../Output Control/Clamping Positions.vi"/>
 			<Item Name="LED Spike.vi" Type="VI" URL="../Output Control/LED Spike.vi"/>
-			<Item Name="Positions2.0.vi" Type="VI" URL="../Output Control/Positions2.0.vi"/>
+		</Item>
+		<Item Name="Manipulation Control" Type="Folder">
+			<Item Name="Lifting.vi" Type="VI" URL="../Output Control/Lifting.vi"/>
+			<Item Name="Lifting Position Calculations.vi" Type="VI" URL="../Output Control/Lifting Position Calculations.vi"/>
+			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Output Control/Lifting Encoder Calculations.vi"/>
+			<Item Name="Clamping.vi" Type="VI" URL="../Output Control/Clamping.vi"/>
+			<Item Name="Clamping Position Calculations.vi" Type="VI" URL="../Output Control/Clamping Position Calculations.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
+			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
+			<Item Name="Arm Clamp Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Clamp Beam Breaker.vi"/>
+			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Sensors/Ultrasonic.vi"/>
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
-			<Item Name="Arm Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Beam Breaker.vi"/>
-			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
-			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
 			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Deg-Ft 6in Mecanum.vi"/>
