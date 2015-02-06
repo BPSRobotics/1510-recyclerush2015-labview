@@ -150,6 +150,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Clamping.vi" Type="VI" URL="../Output Control/Clamping.vi"/>
 			<Item Name="Clamping Positions.vi" Type="VI" URL="../Output Control/Clamping Positions.vi"/>
 			<Item Name="LED Spike.vi" Type="VI" URL="../Output Control/LED Spike.vi"/>
+			<Item Name="Positions2.0.vi" Type="VI" URL="../Output Control/Positions2.0.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Encoders.vi" Type="VI" URL="../Sensors/Encoders.vi"/>
