@@ -156,7 +156,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Clamping Position Calculations.vi" Type="VI" URL="../Output Control/Clamping Position Calculations.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
-			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
+			<Item Name="Drive Encoders.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Sensors/Drive Encoders.vi"/>
 			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
 			<Item Name="Arm Clamp Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Clamp Beam Breaker.vi"/>
 			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
@@ -164,7 +164,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
-			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Deg-Ft 6in Mecanum.vi"/>
+			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Deg-Ft 6in Mecanum.vi"/>
 			<Item Name="Deadzone.vi" Type="VI" URL="../Input Control/Deadzone.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
@@ -874,6 +874,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Encoders.vi" Type="VI" URL="../Sensors/Encoders.vi"/>
+			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Deg-Ft 6in Mecanum.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
