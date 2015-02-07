@@ -155,7 +155,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Output Control/Lifting Encoder Calculations.vi"/>
 			<Item Name="Clamping.vi" Type="VI" URL="../Output Control/Clamping.vi"/>
 			<Item Name="Clamping Position Calculations.vi" Type="VI" URL="../Output Control/Clamping Position Calculations.vi"/>
-			<Item Name="Arm.vi" Type="VI" URL="../Output Control/Arm.vi"/>
+			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Output Control/Lift Wrapper.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Sensors/Drive Encoders.vi"/>
