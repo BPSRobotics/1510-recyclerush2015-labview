@@ -147,16 +147,17 @@ AddOutputFilter chunkFilter
 			<Item Name="Compressor.vi" Type="VI" URL="../Sensors/Compressor.vi"/>
 			<Item Name="LED Spike.vi" Type="VI" URL="../Output Control/LED Spike.vi"/>
 			<Item Name="Status Lights Spikes.vi" Type="VI" URL="../Output Control/Status Lights Spikes.vi"/>
-			<Item Name="Clamp.vi" Type="VI" URL="../Output Control/Clamp.vi"/>
 			<Item Name="LED Spike Wrapper.vi" Type="VI" URL="../Output Control/LED Spike Wrapper.vi"/>
 		</Item>
-		<Item Name="Manipulation Control" Type="Folder">
-			<Item Name="Lifting.vi" Type="VI" URL="../Output Control/Lifting.vi"/>
-			<Item Name="Lifting Position Calculations.vi" Type="VI" URL="../Output Control/Lifting Position Calculations.vi"/>
-			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Output Control/Lifting Encoder Calculations.vi"/>
-			<Item Name="Clamping.vi" Type="VI" URL="../Output Control/Clamping.vi"/>
-			<Item Name="Clamping Position Calculations.vi" Type="VI" URL="../Output Control/Clamping Position Calculations.vi"/>
-			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Output Control/Lift Wrapper.vi"/>
+		<Item Name="Manipulation Code" Type="Folder">
+			<Item Name="Lifting.vi" Type="VI" URL="../Manipulation Code/Lifting.vi"/>
+			<Item Name="Lifting Position Calculations.vi" Type="VI" URL="../Manipulation Code/Lifting Position Calculations.vi"/>
+			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Manipulation Code/Lifting Encoder Calculations.vi"/>
+			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Manipulation Code/Lift Wrapper.vi"/>
+			<Item Name="Clamping.vi" Type="VI" URL="../Manipulation Code/Clamping.vi"/>
+			<Item Name="Clamping Position Calculations.vi" Type="VI" URL="../Manipulation Code/Clamping Position Calculations.vi"/>
+			<Item Name="Clamp.vi" Type="VI" URL="../Manipulation Code/Clamp.vi"/>
+			<Item Name="Arm Wrapper.vi" Type="VI" URL="../Manipulation Code/Arm Wrapper.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
@@ -168,8 +169,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Limit Switch.vi" Type="VI" URL="../Sensors/Limit Switch.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
-			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="//psf/Home/1510-recyclerush2015-labview/Robot Project/Deg-Ft 6in Mecanum.vi"/>
-			<Item Name="Deadzone.vi" Type="VI" URL="../Input Control/Deadzone.vi"/>
+			<Item Name="Deadzone.vi" Type="VI" URL="../Calculations/Deadzone.vi"/>
+			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Calculations/Deg-Ft 6in Mecanum.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Mode.ctl" Type="VI" URL="../Typedefs/Mode.ctl"/>
@@ -878,7 +879,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Deg-Ft 6in Mecanum.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
