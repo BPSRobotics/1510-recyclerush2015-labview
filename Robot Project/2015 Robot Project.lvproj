@@ -135,54 +135,48 @@ AddOutputFilter chunkFilter
 		<Item Name="Input Control" Type="Folder">
 			<Item Name="Joystick Control.vi" Type="VI" URL="../Input Control/Joystick Control.vi"/>
 			<Item Name="Gamepad Drive.vi" Type="VI" URL="../Input Control/Gamepad Drive.vi"/>
-			<Item Name="Twist-Handle Values.vi" Type="VI" URL="../Input Control/Twist-Handle Values.vi"/>
-			<Item Name="Standard Joystick Values.vi" Type="VI" URL="../Input Control/Standard Joystick Values.vi"/>
 			<Item Name="Gamepad Values.vi" Type="VI" URL="../Input Control/Gamepad Values.vi"/>
+			<Item Name="Standard Joystick Values.vi" Type="VI" URL="../Input Control/Standard Joystick Values.vi"/>
+			<Item Name="Twist-Handle Values.vi" Type="VI" URL="../Input Control/Twist-Handle Values.vi"/>
 		</Item>
 		<Item Name="Output Control" Type="Folder">
 			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Output Control/Mecanum Drive.vi"/>
+			<Item Name="Lift Motors.vi" Type="VI" URL="../Output Control/Lift Motors.vi"/>
+			<Item Name="Clamp Motor.vi" Type="VI" URL="../Output Control/Clamp Motor.vi"/>
+			<Item Name="LED Spikes.vi" Type="VI" URL="../Output Control/LED Spikes.vi"/>
 			<Item Name="Mecanum PID.vi" Type="VI" URL="../Output Control/Mecanum PID.vi"/>
-			<Item Name="Twist Drive.vi" Type="VI" URL="../Output Control/Twist Drive.vi"/>
-			<Item Name="Pneumatics.vi" Type="VI" URL="../Output Control/Pneumatics.vi"/>
-			<Item Name="Compressor.vi" Type="VI" URL="../Sensors/Compressor.vi"/>
-			<Item Name="LED Spike.vi" Type="VI" URL="../Output Control/LED Spike.vi"/>
-			<Item Name="Status Lights Spikes.vi" Type="VI" URL="../Output Control/Status Lights Spikes.vi"/>
-			<Item Name="LED Spike Wrapper.vi" Type="VI" URL="../Output Control/LED Spike Wrapper.vi"/>
-		</Item>
-		<Item Name="Manipulation Code" Type="Folder">
-			<Item Name="Lifting.vi" Type="VI" URL="../Manipulation Code/Lifting.vi"/>
-			<Item Name="Lifting Position Calculations.vi" Type="VI" URL="../Manipulation Code/Lifting Position Calculations.vi"/>
-			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Manipulation Code/Lifting Encoder Calculations.vi"/>
-			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Manipulation Code/Lift Wrapper.vi"/>
-			<Item Name="Clamping.vi" Type="VI" URL="../Manipulation Code/Clamping.vi"/>
-			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Manipulation Code/Clamp Wrapper.vi"/>
-			<Item Name="OLD Clamping Position Calculations.vi" Type="VI" URL="../Manipulation Code/OLD Clamping Position Calculations.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
 			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
-			<Item Name="Arm Clamp Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Clamp Beam Breaker.vi"/>
-			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
+			<Item Name="Limit Switches.vi" Type="VI" URL="../Sensors/Limit Switches.vi"/>
+			<Item Name="Beam Breaker.vi" Type="VI" URL="../Sensors/Beam Breaker.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Sensors/Ultrasonic.vi"/>
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
-			<Item Name="Limit Switch.vi" Type="VI" URL="../Sensors/Limit Switch.vi"/>
+		</Item>
+		<Item Name="Wrappers" Type="Folder">
+			<Item Name="DriveSetFeet.vi" Type="VI" URL="../Wrappers/DriveSetFeet.vi"/>
+			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Wrappers/Lift Wrapper.vi"/>
+			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Wrappers/Clamp Wrapper.vi"/>
+			<Item Name="LED Spike Wrapper.vi" Type="VI" URL="../Wrappers/LED Spike Wrapper.vi"/>
+			<Item Name="Encoders Remove Outliers.vi" Type="VI" URL="../Wrappers/Encoders Remove Outliers.vi"/>
+			<Item Name="Twist Drive.vi" Type="VI" URL="../Wrappers/Twist Drive.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
 			<Item Name="Deadzone.vi" Type="VI" URL="../Calculations/Deadzone.vi"/>
 			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Calculations/Deg-Ft 6in Mecanum.vi"/>
+			<Item Name="Lifting Position Calculations.vi" Type="VI" URL="../Calculations/Lifting Position Calculations.vi"/>
+			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Calculations/Lifting Encoder Calculations.vi"/>
+			<Item Name="OLD Clamping Position Calculations.vi" Type="VI" URL="../Calculations/OLD Clamping Position Calculations.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Mode.ctl" Type="VI" URL="../Typedefs/Mode.ctl"/>
 			<Item Name="Joystick Values.ctl" Type="VI" URL="../Typedefs/Joystick Values.ctl"/>
+			<Item Name="Encoder Values.ctl" Type="VI" URL="../Typedefs/Encoder Values.ctl"/>
 			<Item Name="Xbox Values.ctl" Type="VI" URL="../Typedefs/Xbox Values.ctl"/>
 			<Item Name="Standard Joystick Values.ctl" Type="VI" URL="../Typedefs/Standard Joystick Values.ctl"/>
 			<Item Name="Twist-Handle Values.ctl" Type="VI" URL="../Typedefs/Twist-Handle Values.ctl"/>
-			<Item Name="Encoder Values.ctl" Type="VI" URL="../Typedefs/Encoder Values.ctl"/>
-			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Sensors/Accelerometer Distances.ctl"/>
-		</Item>
-		<Item Name="Autonomous" Type="Folder">
-			<Item Name="DriveSetFeet.vi" Type="VI" URL="../Autonomous/DriveSetFeet.vi"/>
-			<Item Name="Encoders Remove Outliers.vi" Type="VI" URL="../Autonomous/Encoders Remove Outliers.vi"/>
+			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Typedefs/Accelerometer Distances.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -753,41 +747,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
-				<Item Name="WPI_ERRAllocAnInvalidSolenoidIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_ERRAllocAnInvalidSolenoidIdx.vi"/>
-				<Item Name="WPI_ERRSolenoidAllocation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_ERRSolenoidAllocation.vi"/>
-				<Item Name="WPI_SolenoidCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidCacheOp.ctl"/>
-				<Item Name="WPI_SolenoidChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl"/>
-				<Item Name="WPI_SolenoidCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidCache.vi"/>
-				<Item Name="WPI_SolenoidDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl"/>
-				<Item Name="WPI_SolenoidClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidClose.vi"/>
-				<Item Name="WPI_CAN_PCMGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobalOps.ctl"/>
-				<Item Name="WPI_CAN_PCMGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobal.vi"/>
-				<Item Name="WPI_CAN_PCMMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMMessageIDs.ctl"/>
-				<Item Name="WPI_CAN_PCMReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMReceive.vi"/>
-				<Item Name="WPI_SolenoidGetBool.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/Deprecated/WPI_SolenoidGetBool.vi"/>
-				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
-				<Item Name="WPI_SolenoidGetEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGetEnum.vi"/>
-				<Item Name="WPI_SolenoidGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGet.vi"/>
-				<Item Name="WPI_SolenoidDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDoesDevRefExist.vi"/>
-				<Item Name="WPI_SolenoidGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGetSetRefNum.vi"/>
-				<Item Name="WPI_SolenoidRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Read Name.vi"/>
-				<Item Name="WPI_SolenoidSafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSafetyError.vi"/>
-				<Item Name="WPI_CAN_PCMSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMSend.vi"/>
-				<Item Name="WPI_SolenoidSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSafetyCheck.vi"/>
-				<Item Name="WPI_ERRSolenoidNotAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_ERRSolenoidNotAllocated.vi"/>
-				<Item Name="WPI_SolenoidSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSafetyUpdate.vi"/>
-				<Item Name="WPI_SolenoidSetEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSetEnum.vi"/>
-				<Item Name="WPI_SolenoidSetBool.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/Deprecated/WPI_SolenoidSetBool.vi"/>
-				<Item Name="WPI_SolenoidSet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSet.vi"/>
-				<Item Name="WPI_CompressorDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorDevRef.ctl"/>
-				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
-				<Item Name="WPI_CompressorOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorOpen.vi"/>
-				<Item Name="WPI_SolenoidOpenSingle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpenSingle.vi"/>
-				<Item Name="WPI_SolenoidOpenDouble.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpenDouble.vi"/>
-				<Item Name="WPI_SolenoidOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpen.vi"/>
-				<Item Name="WPI_CompressorStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStop.vi"/>
-				<Item Name="WPI_CompressorGetEnableState.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorGetEnableState.vi"/>
-				<Item Name="WPI_CompressorClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorClose.vi"/>
 				<Item Name="WPI_UltrasonicRangeUnits.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_UltrasonicRangeUnits.ctl"/>
 				<Item Name="WPI_UltrasonicDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_UltrasonicDeviceRef.ctl"/>
 				<Item Name="WPI_CounterReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterReset.vi"/>
@@ -881,7 +840,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Clamp.vi" Type="VI" URL="../Manipulation Code/Clamp.vi"/>
+			<Item Name="Camera LED Spike.vi" Type="VI" URL="../Output Control/Camera LED Spike.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
