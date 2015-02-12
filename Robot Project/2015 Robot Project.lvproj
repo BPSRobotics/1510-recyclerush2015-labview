@@ -155,8 +155,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Manipulation Code/Lifting Encoder Calculations.vi"/>
 			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Manipulation Code/Lift Wrapper.vi"/>
 			<Item Name="Clamping.vi" Type="VI" URL="../Manipulation Code/Clamping.vi"/>
-			<Item Name="Clamping Position Calculations.vi" Type="VI" URL="../Manipulation Code/Clamping Position Calculations.vi"/>
-			<Item Name="Clamp.vi" Type="VI" URL="../Manipulation Code/Clamp.vi"/>
+			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Manipulation Code/Clamp Wrapper.vi"/>
+			<Item Name="OLD Clamping Position Calculations.vi" Type="VI" URL="../Manipulation Code/OLD Clamping Position Calculations.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
@@ -881,6 +881,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Clamp.vi" Type="VI" URL="../Manipulation Code/Clamp.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
