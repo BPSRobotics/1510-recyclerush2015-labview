@@ -157,7 +157,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Clamping.vi" Type="VI" URL="../Manipulation Code/Clamping.vi"/>
 			<Item Name="Clamping Position Calculations.vi" Type="VI" URL="../Manipulation Code/Clamping Position Calculations.vi"/>
 			<Item Name="Clamp.vi" Type="VI" URL="../Manipulation Code/Clamp.vi"/>
-			<Item Name="Arm Wrapper.vi" Type="VI" URL="../Manipulation Code/Arm Wrapper.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
