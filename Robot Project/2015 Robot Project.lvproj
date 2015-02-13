@@ -148,12 +148,12 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
-			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
 			<Item Name="Limit Switches.vi" Type="VI" URL="../Sensors/Limit Switches.vi"/>
 			<Item Name="Arm Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Beam Breaker.vi"/>
+			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
+			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Sensors/Ultrasonic.vi"/>
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
-			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
 		</Item>
 		<Item Name="Wrappers" Type="Folder">
 			<Item Name="DriveSetFeet.vi" Type="VI" URL="../Wrappers/DriveSetFeet.vi"/>
