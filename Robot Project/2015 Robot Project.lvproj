@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{4E1E68C8-14DA-4B72-9031-EF108EC20B39}" Type="Ref">/My Computer/Untitled Library 1.lvlib/Output</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -34,6 +35,7 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -140,7 +142,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Twist-Handle Values.vi" Type="VI" URL="../Input Control/Twist-Handle Values.vi"/>
 		</Item>
 		<Item Name="Output Control" Type="Folder">
-			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Output Control/Mecanum Drive.vi"/>
+			<Item Name="Mecanum with Encoders.vi" Type="VI" URL="../Output Control/Mecanum with Encoders.vi"/>
 			<Item Name="Lift Motors.vi" Type="VI" URL="../Output Control/Lift Motors.vi"/>
 			<Item Name="Clamp Motor.vi" Type="VI" URL="../Output Control/Clamp Motor.vi"/>
 			<Item Name="LED Spikes.vi" Type="VI" URL="../Output Control/LED Spikes.vi"/>
@@ -148,33 +150,30 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
-			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
+			<Item Name="Limit Switches.vi" Type="VI" URL="../Sensors/Limit Switches.vi"/>
 			<Item Name="Arm Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Beam Breaker.vi"/>
 			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
-			<Item Name="Limit Switches.vi" Type="VI" URL="../Sensors/Limit Switches.vi"/>
+			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Sensors/Ultrasonic.vi"/>
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
 		</Item>
 		<Item Name="Wrappers" Type="Folder">
-			<Item Name="DriveSetFeet.vi" Type="VI" URL="../Wrappers/DriveSetFeet.vi"/>
+			<Item Name="Drive Set Feet.vi" Type="VI" URL="../Wrappers/Drive Set Feet.vi"/>
 			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Wrappers/Lift Wrapper.vi"/>
 			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Wrappers/Clamp Wrapper.vi"/>
-			<Item Name="LED Spike Wrapper.vi" Type="VI" URL="../Wrappers/LED Spike Wrapper.vi"/>
-			<Item Name="Encoders Remove Outliers.vi" Type="VI" URL="../Wrappers/Encoders Remove Outliers.vi"/>
 			<Item Name="Twist Drive.vi" Type="VI" URL="../Wrappers/Twist Drive.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
 			<Item Name="Deadzone.vi" Type="VI" URL="../Calculations/Deadzone.vi"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../Calculations/Toggle.vi"/>
 			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Calculations/Deg-Ft 6in Mecanum.vi"/>
-			<Item Name="Lifting Position Calculations.vi" Type="VI" URL="../Calculations/Lifting Position Calculations.vi"/>
-			<Item Name="Lifting Encoder Calculations.vi" Type="VI" URL="../Calculations/Lifting Encoder Calculations.vi"/>
-			<Item Name="OLD Clamping Position Calculations.vi" Type="VI" URL="../Calculations/OLD Clamping Position Calculations.vi"/>
+			<Item Name="Remove Outliers.vi" Type="VI" URL="../Wrappers/Remove Outliers.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Mode.ctl" Type="VI" URL="../Typedefs/Mode.ctl"/>
 			<Item Name="Joystick Values.ctl" Type="VI" URL="../Typedefs/Joystick Values.ctl"/>
-			<Item Name="Encoder Values.ctl" Type="VI" URL="../Typedefs/Encoder Values.ctl"/>
 			<Item Name="Xbox Values.ctl" Type="VI" URL="../Typedefs/Xbox Values.ctl"/>
+			<Item Name="Encoder Values.ctl" Type="VI" URL="../Typedefs/Encoder Values.ctl"/>
 			<Item Name="Standard Joystick Values.ctl" Type="VI" URL="../Typedefs/Standard Joystick Values.ctl"/>
 			<Item Name="Twist-Handle Values.ctl" Type="VI" URL="../Typedefs/Twist-Handle Values.ctl"/>
 			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Typedefs/Accelerometer Distances.ctl"/>
@@ -184,8 +183,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Ultrasonic Test.vi" Type="VI" URL="../Test/Ultrasonic Test.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Enc.vi" Type="VI" URL="../Enc.vi"/>
-		<Item Name="EncodTest.vi" Type="VI" URL="../EncodTest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -830,9 +827,6 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="WPI_MotorControlRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Registry Set.vi"/>
-				<Item Name="WPI_RobotDriveRegisterEachMotor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRegisterEachMotor.vi"/>
-				<Item Name="WPI_RobotDriveRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Set.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Get.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
@@ -851,7 +845,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Camera LED Spike.vi" Type="VI" URL="../Output Control/Camera LED Spike.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
