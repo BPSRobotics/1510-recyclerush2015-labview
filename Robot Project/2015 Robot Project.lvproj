@@ -181,6 +181,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Test" Type="Folder">
 			<Item Name="LED Test.vi" Type="VI" URL="../LED Test.vi"/>
 			<Item Name="Ultrasonic Test.vi" Type="VI" URL="../Test/Ultrasonic Test.vi"/>
+			<Item Name="Test one or two lift motors.vi" Type="VI" URL="../Output Control/Test one or two lift motors.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
