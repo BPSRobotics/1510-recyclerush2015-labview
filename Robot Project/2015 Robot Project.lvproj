@@ -161,6 +161,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Drive Set Feet.vi" Type="VI" URL="../Wrappers/Drive Set Feet.vi"/>
 			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Wrappers/Lift Wrapper.vi"/>
 			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Wrappers/Clamp Wrapper.vi"/>
+			<Item Name="Clamp Until Held, Then Lift.vi" Type="VI" URL="../Wrappers/Clamp Until Held, Then Lift.vi"/>
 			<Item Name="Twist Drive.vi" Type="VI" URL="../Wrappers/Twist Drive.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
