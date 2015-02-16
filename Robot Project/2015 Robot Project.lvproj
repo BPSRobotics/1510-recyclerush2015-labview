@@ -166,7 +166,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Deadzone.vi" Type="VI" URL="../Calculations/Deadzone.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../Calculations/Toggle.vi"/>
 			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Calculations/Deg-Ft 6in Mecanum.vi"/>
-			<Item Name="Remove Outliers.vi" Type="VI" URL="../Wrappers/Remove Outliers.vi"/>
+			<Item Name="Remove Outliers.vi" Type="VI" URL="../Calculations/Remove Outliers.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Mode.ctl" Type="VI" URL="../Typedefs/Mode.ctl"/>
