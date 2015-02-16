@@ -182,7 +182,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Ultrasonic Test.vi" Type="VI" URL="../Test/Ultrasonic Test.vi"/>
 			<Item Name="Lift Motors Test.vi" Type="VI" URL="../Test/Lift Motors Test.vi"/>
 			<Item Name="Lift Encoder test.vi" Type="VI" URL="../Test/Lift Encoder test.vi"/>
-			<Item Name="Both Beam Breaker test.vi" Type="VI" URL="../Test/Both Beam Breaker test.vi"/>
+			<Item Name="Drive Test.vi" Type="VI" URL="../Test/Drive Test.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -830,6 +830,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Get.vi"/>
+				<Item Name="WPI_EncoderConfigureTimer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderConfigureTimer.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
