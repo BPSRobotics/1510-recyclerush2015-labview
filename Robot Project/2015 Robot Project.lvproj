@@ -2,7 +2,6 @@
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{4E1E68C8-14DA-4B72-9031-EF108EC20B39}" Type="Ref">/My Computer/Untitled Library 1.lvlib/Output</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -35,7 +34,6 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -180,7 +178,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Typedefs/Accelerometer Distances.ctl"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="LED Test.vi" Type="VI" URL="../LED Test.vi"/>
+			<Item Name="LED Test.vi" Type="VI" URL="../Test/LED Test.vi"/>
 			<Item Name="Ultrasonic Test.vi" Type="VI" URL="../Test/Ultrasonic Test.vi"/>
 			<Item Name="Test one or two lift motors.vi" Type="VI" URL="../Output Control/Test one or two lift motors.vi"/>
 		</Item>
