@@ -144,10 +144,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Lift Motors.vi" Type="VI" URL="../Output Control/Lift Motors.vi"/>
 			<Item Name="Clamp Motor.vi" Type="VI" URL="../Output Control/Clamp Motor.vi"/>
 			<Item Name="LED Spikes.vi" Type="VI" URL="../Output Control/LED Spikes.vi"/>
-			<Item Name="Mecanum PID.vi" Type="VI" URL="../Output Control/Mecanum PID.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
-			<Item Name="Drive Encoders.vi" Type="VI" URL="../Sensors/Drive Encoders.vi"/>
 			<Item Name="Limit Switches.vi" Type="VI" URL="../Sensors/Limit Switches.vi"/>
 			<Item Name="Arm Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Beam Breaker.vi"/>
 			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
@@ -167,6 +165,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Toggle.vi" Type="VI" URL="../Calculations/Toggle.vi"/>
 			<Item Name="Deg-Ft 6in Mecanum.vi" Type="VI" URL="../Calculations/Deg-Ft 6in Mecanum.vi"/>
 			<Item Name="Remove Outliers.vi" Type="VI" URL="../Calculations/Remove Outliers.vi"/>
+			<Item Name="Clamp Positions.vi" Type="VI" URL="../Calculations/Clamp Positions.vi"/>
+			<Item Name="Lift Positions.vi" Type="VI" URL="../Calculations/Lift Positions.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Mode.ctl" Type="VI" URL="../Typedefs/Mode.ctl"/>
@@ -177,14 +177,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Twist-Handle Values.ctl" Type="VI" URL="../Typedefs/Twist-Handle Values.ctl"/>
 			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Typedefs/Accelerometer Distances.ctl"/>
 		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="LED Test.vi" Type="VI" URL="../Test/LED Test.vi"/>
-			<Item Name="Ultrasonic Test.vi" Type="VI" URL="../Test/Ultrasonic Test.vi"/>
-			<Item Name="Lift Motors Test.vi" Type="VI" URL="../Test/Lift Motors Test.vi"/>
-			<Item Name="Lift Encoder test.vi" Type="VI" URL="../Test/Lift Encoder test.vi"/>
-			<Item Name="Drive Test.vi" Type="VI" URL="../Test/Drive Test.vi"/>
-			<Item Name="Lift and Clamp Test.vi" Type="VI" URL="../Test/Lift and Clamp Test.vi"/>
-		</Item>
+		<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -751,7 +744,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="WPI_CANTalonSRX_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Receive.vi"/>
 				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
-				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
 				<Item Name="WPI_UltrasonicRangeUnits.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_UltrasonicRangeUnits.ctl"/>
@@ -830,7 +822,6 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="WPI_RobotDriveRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Get.vi"/>
 				<Item Name="WPI_EncoderConfigureTimer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderConfigureTimer.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
