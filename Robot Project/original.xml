@@ -115,7 +115,7 @@
           <cnt>2</cnt>
           <ipv4>
             <ipaddr>192.168.0.50</ipaddr>
-            <ipaddr>169.254.94.154</ipaddr>
+            <ipaddr>169.254.123.232</ipaddr>
           </ipv4>
         </ipalias>
         <devnam>br0</devnam>
@@ -145,6 +145,22 @@
             <network>10.15.10.0</network>
             <mask>24</mask>
           </pool>
+          <leases>
+            <entry>
+              <macaddr>ac:cc:8e:20:18:d4</macaddr>
+              <ipaddr>10.15.10.21</ipaddr>
+              <expire>86400</expire>
+              <hostname>axis-accc8e2018d4</hostname>
+              <due_time>86440</due_time>
+            </entry>
+            <entry>
+              <macaddr>ac:cc:8e:20:18:d1</macaddr>
+              <ipaddr>10.15.10.20</ipaddr>
+              <expire>86400</expire>
+              <hostname>axis-accc8e2018d1</hostname>
+              <due_time>86440</due_time>
+            </entry>
+          </leases>
         </dhcps4>
       </inf>
     </runtime>

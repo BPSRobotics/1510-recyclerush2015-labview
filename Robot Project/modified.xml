@@ -115,7 +115,7 @@
           <cnt>2</cnt>
           <ipv4>
             <ipaddr>192.168.0.50</ipaddr>
-            <ipaddr>169.254.94.154</ipaddr>
+            <ipaddr>169.254.123.232</ipaddr>
           </ipv4>
         </ipalias>
         <devnam>br0</devnam>
@@ -127,8 +127,15 @@
           <uid>INET-1</uid>
           <addrtype>ipv4</addrtype>
           <ipv4>
-            <static>0</static>
+            <static>1</static>
+            <valid>1</valid>
+            <mtu>1500</mtu>
+            <ipaddr>10.15.10.1</ipaddr>
+            <mask>8</mask>
+            <gateway>10.15.10.4</gateway>
+            <domain />
           </ipv4>
+          <uptime>28</uptime>
         </inet>
       </inf>
     </runtime>
