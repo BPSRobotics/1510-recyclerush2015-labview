@@ -134,7 +134,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Input Control" Type="Folder">
 			<Item Name="Joystick Control.vi" Type="VI" URL="../Input Control/Joystick Control.vi"/>
-			<Item Name="Gamepad Drive.vi" Type="VI" URL="../Input Control/Gamepad Drive.vi"/>
 			<Item Name="Gamepad Values.vi" Type="VI" URL="../Input Control/Gamepad Values.vi"/>
 			<Item Name="Standard Joystick Values.vi" Type="VI" URL="../Input Control/Standard Joystick Values.vi"/>
 			<Item Name="Twist-Handle Values.vi" Type="VI" URL="../Input Control/Twist-Handle Values.vi"/>
@@ -154,6 +153,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
 		</Item>
 		<Item Name="Wrappers" Type="Folder">
+			<Item Name="Gamepad Drive.vi" Type="VI" URL="../Input Control/Gamepad Drive.vi"/>
 			<Item Name="Drive Set Feet.vi" Type="VI" URL="../Wrappers/Drive Set Feet.vi"/>
 			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Wrappers/Lift Wrapper.vi"/>
 			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Wrappers/Clamp Wrapper.vi"/>
