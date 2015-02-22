@@ -177,10 +177,16 @@ AddOutputFilter chunkFilter
 			<Item Name="Twist-Handle Values.ctl" Type="VI" URL="../Typedefs/Twist-Handle Values.ctl"/>
 			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Typedefs/Accelerometer Distances.ctl"/>
 		</Item>
-		<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
+			<Item Name="3 Totes Forward.vi" Type="VI" URL="../Autonomous/3 Totes Forward.vi"/>
+			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
+			<Item Name="AutonDrive Test.vi" Type="VI" URL="../Test/AutonDrive Test.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
-		<Item Name="AutonDrive Test.vi" Type="VI" URL="../Test/AutonDrive Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
