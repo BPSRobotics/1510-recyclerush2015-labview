@@ -179,6 +179,8 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
+		<Item Name="AutonDrive Test.vi" Type="VI" URL="../Test/AutonDrive Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
