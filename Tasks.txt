@@ -1,0 +1,9 @@
+TEST (in order):
+
+-All Tests VI (ALL actuators and sensors)
+-AutoDrive VI
+-Lift and Clamp wrappers (must deploy entire project and run TeleOp)
+-Teleop controls
+-Autonomous
+-Dashboard
+-Vision Code

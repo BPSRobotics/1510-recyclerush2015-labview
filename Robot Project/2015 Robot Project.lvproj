@@ -146,8 +146,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Limit Switches.vi" Type="VI" URL="../Sensors/Limit Switches.vi"/>
-			<Item Name="Arm Beam Breaker.vi" Type="VI" URL="../Sensors/Arm Beam Breaker.vi"/>
-			<Item Name="Tote Beam Breaker.vi" Type="VI" URL="../Sensors/Tote Beam Breaker.vi"/>
+			<Item Name="Beam Breakers.vi" Type="VI" URL="../Sensors/Beam Breakers.vi"/>
 			<Item Name="Lift Encoder.vi" Type="VI" URL="../Sensors/Lift Encoder.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Sensors/Ultrasonic.vi"/>
 			<Item Name="Accelerometer Display.vi" Type="VI" URL="../Sensors/Accelerometer Display.vi"/>
@@ -159,6 +158,15 @@ AddOutputFilter chunkFilter
 			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Wrappers/Clamp Wrapper.vi"/>
 			<Item Name="Clamp Until Held, Then Lift.vi" Type="VI" URL="../Wrappers/Clamp Until Held, Then Lift.vi"/>
 			<Item Name="Twist Drive.vi" Type="VI" URL="../Wrappers/Twist Drive.vi"/>
+		</Item>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
+			<Item Name="3 Totes Forward.vi" Type="VI" URL="../Autonomous/3 Totes Forward.vi"/>
+			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
+			<Item Name="AutonDrive Test.vi" Type="VI" URL="../Test/AutonDrive Test.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
 			<Item Name="Deadzone.vi" Type="VI" URL="../Calculations/Deadzone.vi"/>
@@ -176,15 +184,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Standard Joystick Values.ctl" Type="VI" URL="../Typedefs/Standard Joystick Values.ctl"/>
 			<Item Name="Twist-Handle Values.ctl" Type="VI" URL="../Typedefs/Twist-Handle Values.ctl"/>
 			<Item Name="Accelerometer Distances.ctl" Type="VI" URL="../Typedefs/Accelerometer Distances.ctl"/>
-		</Item>
-		<Item Name="Autonomous" Type="Folder">
-			<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
-			<Item Name="3 Totes Forward.vi" Type="VI" URL="../Autonomous/3 Totes Forward.vi"/>
-			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
-		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
-			<Item Name="AutonDrive Test.vi" Type="VI" URL="../Test/AutonDrive Test.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -830,7 +829,14 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="WPI_EncoderConfigureTimer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderConfigureTimer.vi"/>
+				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
+				<Item Name="SD Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String Array.vi"/>
+				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
+				<Item Name="SD Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean Array.vi"/>
+				<Item Name="SD Read String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String.vi"/>
+				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
+				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
+				<Item Name="SD Read Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Value.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

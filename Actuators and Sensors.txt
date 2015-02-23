@@ -1,0 +1,27 @@
+---ACTUATORS---
+
+-4 Mecanum Drive CIM Motors (CANTalon)
+-2 Lift CIM Motors (Talon): must spin opposite of each other
+-1 Clamp Bag Motor (Talon)
+-LEDs
+	-Camera LEDs (Relay 0): yellow tote mask detection
+	-Status LEDs (Relay 1): blinking if tote in front, on if tote grabbed
+
+
+---SENSORS---
+
+-Encoders (+- 6 error margin)
+	-4 on drive (CANTalon SRX): drive distance
+	-1 on lift (DI 0 and 1): not necessary, but useful for knowing lift distance
+-Limit Switches
+	-5 on lift (AI 1): lift positions
+	-2 on clamp ends (DI 2 and 3): clamp max and min position
+	-2 on clamp (DI 4 and 5): both required to clamp tote/bin
+-Beam Breakers
+	-1 on clamp (DI 6): clamp wide tote position
+	-1 across clamp (DI 7): detects something inside clamp
+-Ultrasonic in front of robot (AI 0): detects something right in front of robot
+-Camera
+	-1 in front of robot (IP 10.15.10.20): detects yellow tote mask with LED help
+	-1 angled down from support pillar (IP 10.15.20.21): useful driving assistance
+-(Accelerometer built-in to roboRIO: maybe useful for acceleration/velocity/distance/PID)

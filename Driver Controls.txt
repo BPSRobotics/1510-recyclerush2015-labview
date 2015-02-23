@@ -1,0 +1,13 @@
+Controller 1 (Drive):
+-Left Joystick - forward, backward, left strafe, right strafe
+-Right Joystick - pivot left, pivot right
+-Right Trigger - hold to increase movement speed
+-Left Trigger - hold to decrease movement speed
+
+Controller 2 (Manipulator):
+-Left Joystick - move lift up one level, move lift down one level
+-Right Joystick - move lift up manually, move lift down manually
+-A - move clamp in one width
+-B - move clamp out one width
+-X - move clamp in manually (ignores middle width beam breaker)
+-Y - move clamp out manually (ignores middle width beam breaker)

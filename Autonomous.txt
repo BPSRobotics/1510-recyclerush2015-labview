@@ -1,0 +1,44 @@
+---AUTONOMOUS---
+
+We can have infinite; the more the better!
+
+Requirements:
+-Movement must be precise
+-Robot can sense a tote that is ready to be picked up
+-Robot can sense when it is close enough to place a tote on another tote
+
+Tote Detection Methods: (prioritized)
+-Tote Beam Breaker (only works for 1st tote because we would be holding)
+-Camera (for distance to strafe left/right, move forward)
+-Ultrasonic (to determine distance to tote)
+-Track Encoder Distance, use to return to original position
+
+Scenario 1 V1: Collect all yellow totes by strafing
+START: In front of yellow tote facing scoring platform
+1. Move forward to first yellow tote
+2. Lift tote all the way up (to avoid bins)
+3. Strafe to next yellow tote
+4. Drop previous tote on next tote
+5. Lift stack all the way up
+6. Repeat steps 2-5
+7. Move forward to auto zone
+
+Scenario 1 V2: Collect all yellow totes by moving forward (ASSUMES ALLIANCE CAN PUSH BINS OUT OF THE WAY)
+START: In front of yellow tote facing line of yellow totes
+1. Move forward to first yellow tote
+2. Lift tote
+3. Move forward to next yellow tote
+4. Drop previous tote on next tote
+5. Lift stack
+6. Repeat steps 2-5
+7. Strafe to auto zone
+
+Scenario 2: Push one trash bin to auto zone
+START: In front of bin facing autozone
+1. Move forward to auto zone, pushing bin
+
+Scenario 3: Pull 2 totes from landfill
+START: In front of 2 totes in landfill
+1. Move forward to landfill totes
+2. Lift arms (hook pulls up two)
+3. Move back to auto zone
