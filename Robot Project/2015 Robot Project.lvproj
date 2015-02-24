@@ -153,7 +153,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Wrappers" Type="Folder">
 			<Item Name="Gamepad Drive.vi" Type="VI" URL="../Input Control/Gamepad Drive.vi"/>
-			<Item Name="Drive Set Feet.vi" Type="VI" URL="../Wrappers/Drive Set Feet.vi"/>
 			<Item Name="Lift Wrapper.vi" Type="VI" URL="../Wrappers/Lift Wrapper.vi"/>
 			<Item Name="Clamp Wrapper.vi" Type="VI" URL="../Wrappers/Clamp Wrapper.vi"/>
 			<Item Name="Clamp Until Held, Then Lift.vi" Type="VI" URL="../Wrappers/Clamp Until Held, Then Lift.vi"/>
@@ -163,6 +162,7 @@ AddOutputFilter chunkFilter
 			<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
 			<Item Name="3 Totes Forward.vi" Type="VI" URL="../Autonomous/3 Totes Forward.vi"/>
 			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
+			<Item Name="Drive Set Feet.vi" Type="VI" URL="../Wrappers/Drive Set Feet.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
