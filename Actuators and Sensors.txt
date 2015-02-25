@@ -17,9 +17,9 @@
 	-5 on lift (AI 1): lift positions
 	-2 on clamp ends (DI 2 and 3): clamp max and min position
 	-2 on clamp (DI 4 and 5): both required to clamp tote/bin
+	-1 on front of robot (DI 6): tote detection
 -Beam Breakers
-	-1 on clamp (DI 6): clamp wide tote position
-	-1 across clamp (DI 7): detects something inside clamp
+	-1 on clamp (DI 7): clamp wide tote position
 -Ultrasonic in front of robot (AI 0): detects something right in front of robot
 -Camera
 	-1 in front of robot (IP 10.15.10.20): detects yellow tote mask with LED help
