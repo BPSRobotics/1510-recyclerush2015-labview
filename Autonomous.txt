@@ -42,3 +42,7 @@ START: In front of 2 totes in landfill
 1. Move forward to landfill totes
 2. Lift arms (hook pulls up two)
 3. Move back to auto zone
+
+Scenario 4: Strafe to auto zone, pushing tote
+START: Side facing tote facing scoring platform
+1. Strafe to auto zone (10ft?)
