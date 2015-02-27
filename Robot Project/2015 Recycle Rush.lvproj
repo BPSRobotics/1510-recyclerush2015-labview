@@ -39,7 +39,7 @@
 	</Item>
 	<Item Name="roboRIO" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">roboRIO</Property>
-		<Property Name="alias.value" Type="Str">10.15.10.22</Property>
+		<Property Name="alias.value" Type="Str">roborio-1510.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -883,7 +883,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
