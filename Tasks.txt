@@ -1,10 +1,4 @@
 TEST (in order):
 
--All Tests VI (ALL actuators and sensors)
--AutoDrive VI
--Lift and Clamp wrappers (must deploy entire project and run TeleOp)
--Teleop controls
--Autonomous
--RE-ENABLE CLAMP AND LIFT IN AUTONOMICE!!!
--Dashboard
+-Autonomous: CANNOT touch the tote/bin when we move it into the autozone
 -Vision Code
