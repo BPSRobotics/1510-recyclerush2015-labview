@@ -3,11 +3,14 @@ Controller 1 (Drive):
 -Right Joystick - pivot left, pivot right
 -Right Trigger - hold to increase movement speed
 -Left Trigger - hold to decrease movement speed
+-Start Button - reset distance travelled
 
 Controller 2 (Manipulator):
--Left Joystick - move lift up one level, move lift down one level
--Right Joystick - move lift up manually, move lift down manually
--A - move clamp in one width
--B - move clamp out one width
--X - move clamp in manually (ignores middle width beam breaker)
--Y - move clamp out manually (ignores middle width beam breaker)
+-Left Joystick (Up/Down) - move lift up one level, move lift down one level
+-Right Joystick (Lef/Right) - move clamp in manually, move clamp out manually
+-Y - move lift up one position
+-A - move lift down one position
+-X - move clamp in one position
+-B - move clamp out one position
+-Left Trigger - stop auto lift
+-Right Trigger - stop auto clamp
