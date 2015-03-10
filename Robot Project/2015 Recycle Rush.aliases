@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "192.168.1.83"
+My Computer = "10.15.10.22"
 
 [roboRIO]
 roboRIO = "roborio-1510.local"
