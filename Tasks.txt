@@ -1,4 +1,8 @@
+ALWAYS SYNC WITH NEW TASKS!!!
+
 TEST (in order):
 
--Autonomous: CANNOT touch the tote/bin when we move it into the autozone
--Vision Code
+-New dashboard with auto
+-Dashboard updating: does it correctly do it timely in auto? When repeating auto?
+-Full teleop
+-Autonomous functions per Jarod's instructions

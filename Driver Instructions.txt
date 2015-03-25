@@ -1,18 +1,22 @@
-DRIVERS
+COMPETITION PRE-GAME SOFTWARE INSTRUCTIONS
 
 1) Check IP
 	-Open Network and Sharing Center (bottom right in taskbar where you connect to Internet)
 	-Click "Change Adapter Settings"
-	-Disable "Wireless Network Connection"
+	-Right click "Wireless Network Connection" and Disable it
 	-Double Click Local Area Connection
 	-Click Properties
 	-Double Click "Internet Protocol Version 4"
 	-Check "Obtain IP Address automatically" and "Obtain DNS server automatically"
 2) Check driver station connections
+	-Plug in Field Ethernet cable (and charger if possible)
 	-Communications, Robot Code, and Joysticks must all be green
 3) Check Dashboard
 	-DASHBOARD MAY NOT UPDATE IN THE BEGINNNING, SO YOU MUST CHANGE THE VALUE AT LEAST ONCE
-	-Autonomous set to whatever
-	-Auto Distance set to whatever
-	-Controllers generally Xbox
-4) Click "Camera Off" to "IP Camera" (don't do this for any unwanted camera)
+	-Set autonomous
+		-If using "Move", set Direction and Distance
+	-Set controllers (generally XBox)
+4) Check cameras
+	-The names should respectively be "axis-bot.local" and "axis-top.local" for Bot and Top cameras
+	-The button at bottom should read "IP Camera" instead of "Camera Off"
+	-Live feed should show up when connected
