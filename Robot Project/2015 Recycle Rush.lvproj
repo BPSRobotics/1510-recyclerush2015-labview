@@ -169,11 +169,14 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Autonomous" Type="Folder">
+			<Item Name="AutoDrive.vi" Type="VI" URL="../Autonomous/AutoDrive.vi"/>
+			<Item Name="AutoRotate.vi" Type="VI" URL="../Autonomous/AutoRotate.vi"/>
+			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
 			<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
 			<Item Name="3 Totes Forward.vi" Type="VI" URL="../Autonomous/3 Totes Forward.vi"/>
-			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
-			<Item Name="Drive Set Feet.vi" Type="VI" URL="../Autonomous/Drive Set Feet.vi"/>
 			<Item Name="Pick Up and Go.vi" Type="VI" URL="../Autonomous/Pick Up and Go.vi"/>
+			<Item Name="Pick Up and Rotate.vi" Type="VI" URL="../Autonomous/Pick Up and Rotate.vi"/>
+			<Item Name="3 Totes Rotate.vi" Type="VI" URL="../Autonomous/3 Totes Rotate.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
@@ -292,11 +295,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SafetyOutputVIRefnumList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputVIRefnumList.vi"/>
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
-				<Item Name="WPI_DriverStationGet Alliance Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Alliance Info.vi"/>
-				<Item Name="WPI_DriverStationAllianceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationAllianceInfo.ctl"/>
-				<Item Name="WPI_DriverStationPositionInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationPositionInfo.ctl"/>
-				<Item Name="NetComm_getAllianceStation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getAllianceStation.vi"/>
-				<Item Name="NetComm_AllianceStation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_AllianceStation.ctl"/>
 				<Item Name="WPI_DriverStationReport Robot Code State.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationReport Robot Code State.vi"/>
 				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
 				<Item Name="WPI_MotorControlDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDeviceRef.ctl"/>
@@ -884,7 +882,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
