@@ -169,14 +169,16 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Autonomous" Type="Folder">
-			<Item Name="AutoDrive.vi" Type="VI" URL="../Autonomous/AutoDrive.vi"/>
-			<Item Name="AutoRotate.vi" Type="VI" URL="../Autonomous/AutoRotate.vi"/>
-			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
-			<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
-			<Item Name="3 Totes Forward.vi" Type="VI" URL="../Autonomous/3 Totes Forward.vi"/>
+			<Item Name="Drive" Type="Folder">
+				<Item Name="AutoDrive.vi" Type="VI" URL="../Autonomous/Drive/AutoDrive.vi"/>
+				<Item Name="AutoRotate.vi" Type="VI" URL="../Autonomous/Drive/AutoRotate.vi"/>
+			</Item>
 			<Item Name="Pick Up and Go.vi" Type="VI" URL="../Autonomous/Pick Up and Go.vi"/>
 			<Item Name="Pick Up and Rotate.vi" Type="VI" URL="../Autonomous/Pick Up and Rotate.vi"/>
 			<Item Name="3 Totes Rotate.vi" Type="VI" URL="../Autonomous/3 Totes Rotate.vi"/>
+			<Item Name="3 Totes Strafe.vi" Type="VI" URL="../Autonomous/3 Totes Strafe.vi"/>
+			<Item Name="Landfill.vi" Type="VI" URL="../Autonomous/Landfill.vi"/>
+			<Item Name="3 Totes Forward.vi" Type="VI" URL="../Autonomous/3 Totes Forward.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="All Tests.vi" Type="VI" URL="../Test/All Tests.vi"/>
@@ -882,7 +884,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
